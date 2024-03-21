@@ -1,0 +1,109 @@
+#home{
+    background-image: url('../images/Background.png');
+    background-repeat: no-repeat;
+    background-position: 520px -24px;
+
+    .info{
+        padding-top: 90px;
+        
+
+        img.profile-circle{
+            margin-bottom: 24px;
+        }
+        h1{
+            margin-bottom: 20px;
+            span{
+                color: $gray;
+            }
+        }
+
+        .field{
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+
+            h2{
+                color: $gray;
+                margin: 0;
+            }
+
+            span{
+                font-size: 21px;
+                margin-left: 2px;
+            }
+
+        }
+        
+       
+        p{
+            max-width: 430px;
+            margin-bottom: 70px;
+
+        }
+        .socials{
+            margin-top: 50px;
+
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+
+                li{
+                    margin-right: 8px;
+                    a{
+                        display: flex;
+                        text-decoration: none;
+                        padding: 9px 11px;
+                        transition: all 0.3s;
+
+                        &:hover{
+                            background: $secondary;
+                            border-radius: 6px;
+
+                            span,
+                            i{
+                                color: #fff;
+                                transition: all 0.3s;
+                            }
+                        }
+
+                        i{
+                            font-size: 20px;
+                            margin-right: 8px;
+                            color: $gray;
+                        }
+
+                        span{
+                            color: $secondary_gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .image{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        img{
+           
+            border-radius: 8px;
+            max-width: 100%;
+            transition: all 0.3s;
+
+            &:hover{
+                filter: saturate(150%) sepia(1);
+            }
+        }
+   
+     
+
+    
+    }
+}

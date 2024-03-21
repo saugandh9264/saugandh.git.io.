@@ -1,0 +1,38 @@
+main{
+    padding-left:130px;
+
+     > section{
+        display: none;
+        padding-right: 30px;
+        padding-left: 30px;
+
+
+        &:not(#hone){
+            padding-top: 64px;;
+        }
+
+        &.active{
+            display: block;
+        }
+        header.has-bg{
+            position: relative;
+            img{
+                position: absolute;
+                top: 12px;
+                left: 260px;
+
+            }
+
+        }
+        header.ha-bg{
+            position: relative;
+            img{
+                position: absolute;
+                top: 12px;
+                left: -72px;
+
+            }
+            
+        }
+    }
+}
